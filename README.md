@@ -1,6 +1,6 @@
 # dentity-ens-client
 
-A combination of [Denitty](https://dentity.com)  and [ENS domains](https://ens.domains) to verify basic information for ENS domain owners.
+A combination of [Dentity](https://dentity.com)  and [ENS domains](https://ens.domains) to verify basic information for ENS domain owners.
 
 ---
 
