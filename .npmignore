@@ -1,0 +1,10 @@
+node_modules
+tsup.config.ts
+tsconfig.json
+examples/
+.czrc
+.eslint*
+.prettierrc
+.releaserc
+coverage
+examples

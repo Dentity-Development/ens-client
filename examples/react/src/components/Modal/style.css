@@ -1,0 +1,13 @@
+.react-json-view {
+  @apply w-[100dvw] md:w-[calc(800px_-_32px)] rounded-md;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.object-content {
+  @apply p-2;
+}
+
+.string-value {
+  word-break: break-all;
+}

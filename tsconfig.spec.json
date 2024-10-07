@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext", // or ES2015/ES2020/ES2022
+    "target": "ESNext",
+    "esModuleInterop": true
+
+  }
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-inter;
+}
+
+body {
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(82, 152, 255, 0.063) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgb(247, 247, 247);
+}
+
+.scroll-lock {
+  margin: 0px;
+  max-height: 100dvh;
+  overflow: hidden;
+}
