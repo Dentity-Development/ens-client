@@ -1,4 +1,4 @@
-# dentity-ens-client
+# @dentity/ens-client
 
 A combination of [Dentity](https://dentity.com)  and [ENS domains](https://ens.domains) to verify basic information for ENS domain owners.
 
@@ -7,7 +7,7 @@ A combination of [Dentity](https://dentity.com)  and [ENS domains](https://ens.d
 ## Install
 
 ``` sh
-npm i dentity-ens-client
+npm i @dentity/ens-client
 ```
 
 ## Getting started
@@ -15,7 +15,7 @@ npm i dentity-ens-client
 The simplest example is to get all verifcations shared by Dentity users with their ENS domain. You can easily get all those verifications by initially add to their ENS domain.
 ``` ts
 import { EnsPublicClient, createEnsPublicClient } from '@ensdomains/ensjs';
-import { CredentialTemplate, EnsDentityClient } from 'dentity-ens-client';
+import { CredentialTemplate, EnsDentityClient } from '@dentity/ens-client';
 import { http } from 'viem';
 import { mainnet } from 'viem/chains';
 
@@ -40,7 +40,7 @@ EnsDentityClient.initialize(client as any, 'alice.eth').then((ensClient) => {
 Currently Dentity is supporting sharing a number of verification types for ENS domain. You can specifically get any verification by passing in a specific credential template. You can then verify the correctness of that verification.
 ``` ts
 import { EnsPublicClient, createEnsPublicClient } from '@ensdomains/ensjs';
-import { CredentialTemplate, DentityEnsClient } from 'dentity-ens-client';
+import { CredentialTemplate, DentityEnsClient } from '@dentity/ens-client';
 import { http } from 'viem';
 import { mainnet } from 'viem/chains';
 
