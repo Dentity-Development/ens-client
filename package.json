@@ -1,7 +1,7 @@
 {
   "name": "@dentity/ens-client",
   "repository": {
-    "url": "https://github.com/Dentity-Development/ens-client.git"
+    "url": "git+https://github.com/Dentity-Development/ens-client.git"
   },
   "version": "1.0.0",
   "author": "Dentity",
@@ -66,5 +66,13 @@
   "resolutions": {
     "wrap-ansi": "7.0.0",
     "string-width": "4.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Dentity-Development/ens-client/issues"
+  },
+  "homepage": "https://github.com/Dentity-Development/ens-client#readme",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
   }
 }

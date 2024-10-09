@@ -6,7 +6,7 @@ import {
   DentityEnsClient,
   VerifiableCredentialPresentation,
   CredentialTemplate,
-} from 'dentity-ens-client';
+} from '@dentity/ens-client';
 import { useLayoutEffect, useMemo, useState } from 'react';
 import Discord from '../../components/Icon/Discord';
 import Email from '../../components/Icon/Email';

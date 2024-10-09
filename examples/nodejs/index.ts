@@ -1,5 +1,5 @@
 import { EnsPublicClient, createEnsPublicClient } from '@ensdomains/ensjs';
-import { CredentialTemplate, DentityEnsClient } from 'dentity-ens-client';
+import { CredentialTemplate, DentityEnsClient } from '@dentity/ens-client';
 import { http } from 'viem';
 import { mainnet } from 'viem/chains';
 

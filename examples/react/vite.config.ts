@@ -21,6 +21,6 @@ export default defineConfig({
     port: 3000,
   },
   optimizeDeps: {
-    include: ['dentity-ens-client'],
+    include: ['@dentity/ens-client'],
   },
 });

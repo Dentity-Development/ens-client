@@ -7,7 +7,7 @@ import MiniLoading from '../Icon/MiniLoading';
 import {
   DentityEnsClient,
   VerifiableCredentialPresentationResponse,
-} from 'dentity-ens-client';
+} from '@dentity/ens-client';
 import { toast } from 'react-toastify';
 import Tick from '../Icon/Tick';
 

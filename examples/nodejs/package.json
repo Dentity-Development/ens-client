@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@ensdomains/ensjs": "^4.0.1",
-    "dentity-ens-client": "link:../../"
+    "@dentity/ens-client": "link:../../"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

@@ -22,7 +22,7 @@
   "dependencies": {
     "@ensdomains/ensjs": "^4.0.1",
     "copy-to-clipboard": "^3.3.3",
-    "dentity-ens-client": "link:../../",
+    "@dentity/ens-client": "link:../../",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-json-view": "^1.21.3",
