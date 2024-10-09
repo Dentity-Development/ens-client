@@ -1,6 +1,6 @@
 # dentity-ens-client
 
-A combination of [Denitty](https://dentity.com)  and [ENS domains](https://ens.domains) to verify basic information for ENS domain owners.
+A combination of [Dentity](https://dentity.com)  and [ENS domains](https://ens.domains) to verify basic information for ENS domain owners.
 
 ---
 
@@ -25,7 +25,7 @@ const client = createEnsPublicClient({
   transport: http(''),
 }) as EnsPublicClient;
 
-EnsDentityClient.initialize(client as any, 'moisesj.eth').then((ensClient) => {
+EnsDentityClient.initialize(client as any, 'alice.eth').then((ensClient) => {
   
   // Get ethereum address of this ENS domain 
   const address = ensClient.getEthAddress();
@@ -50,7 +50,7 @@ const client = createEnsPublicClient({
   transport: http(''),
 }) as EnsPublicClient;
 
-DentityEnsClient.initialize(client as any, 'moisesj.eth').then((ensClient) => {
+DentityEnsClient.initialize(client as any, 'alice.eth').then((ensClient) => {
   // Get ethereum address
   const address = ensClient.getEthAddress();
   console.log('ENS Address:', address);
